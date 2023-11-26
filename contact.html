@@ -1,0 +1,231 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>お問い合わせ - あびりん農場</title>
+	<meta name="Description" content="あびりん農園のお問い合わせページです。電話とメールにて受け付けております。">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="img/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="css/contact.css" rel="stylesheet" type="text/css">
+	<script src="js/jquery-3.7.0.min.js"></script>
+</head>
+
+<body>
+	
+	<header>
+		<div class="wrap header-wrap">
+			<h1 class="site-title">
+				<a href="index.html">
+					<img src="img/logo.png" alt="ロゴマーク">
+				</a>
+			</h1>
+			
+			<ul class="pc-nav pc-only">
+				<li>
+					<a href="./syuukaku_list.html">農作物一覧</a>
+				</li>
+				<li>
+					<a href="./nouen_program.html">体験プログラム</a>
+				</li>
+				<li>
+					<a href="javascript:dummy();">農作物の販売</a>
+				</li>
+				<li>
+					<a href="./index.html#recruit">採用情報</a>
+				</li>
+				<li>
+					<a href="./access.html">アクセス</a>
+				</li>
+				<li>
+					<a href="./contact.html">お問い合わせ</a>
+				</li>
+			</ul>
+			<div class="openbtn pc-none"><span></span><span></span><span></span></div>
+		</div>
+		<nav id="g-nav">
+			<div id="g-nav-list">
+				<div class="nav-wrap">
+					<ul>
+						<li><a href="./index.html">トップページ</a></li>
+						<li><a href="./syuukaku_list.html">農作物一覧</a></li>
+						<li><a href="./nouen_program.html">体験プログラム</a></li>
+						<li><a href="javascript:dummy();">農作物の販売</a></li>
+						<li><a href="./index.html#recruit">採用情報</a></li>
+						<li><a href="./access.html">アクセス</a></li>
+						<li><a href="./contact.html">お問い合わせ</a></li>
+					</ul>
+					<div class="sns flex-box">
+						<div class="flex-item img"><a href="javascript:dummy();"><img src="img/sns-facebook.png" alt="Facebook"></a></div>
+						<div class="flex-item img"><a href="javascript:dummy();"><img src="img/sns-instagram.png" alt="instagram"></a></div>
+						<div class="flex-item img"><a href="javascript:dummy();"><img src="img/sns-youtube.png" alt="youtube"></a></div>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<div class="circle-bg"></div>
+	</header>
+	
+	<main>
+		
+		<section id="contact" class="subpage">
+			
+			<div class="breadcrumb">
+				<ol>
+					<li><a href="./index.html">トップページ</a></li>
+					<li>お問い合わせ</li>
+				</ol>
+			</div>
+			
+			<div class="subpage-titlebox">
+				<div class="subpage-titleitem">
+					<h2 class="sec-title" data-en="Contact"><span>お問い合わせ</span></h2>
+					
+				</div>
+			</div>
+			
+			<div class="contents">
+				
+				<div id="contact-phone">
+					<h3 class="contents-title">お電話でのお問い合わせ</h3>
+					<div class="contact-tel">
+						<p class="tel-number"><a href="tel:123-123-1234">TEL : 123-123-1234</a></p>
+						<p>受付時間　9:00 - 17:00</p>
+					</div>
+				</div>
+				
+				<div id="contact-mail">
+					<h3 class="contents-title">メールでのお問い合わせ</h3>
+					<p>3日以内にメールが届かない場合、お客様のメール受信設定をご確認いただくか、お手数ですがお電話にてお問い合わせをお願いいたします。</p>
+					<form action="#" method="post">
+						<dl class="flex-box">
+							<dt class="flex-item"><label for="name"><span class="label-required">必須</span>お問い合わせ内容</label></dt>
+							<dd class="flex-item">
+								<select name="contact-type">
+										<option value="" selected="selected">
+										選択してください</option>
+										<option value="type1">
+										体験プログラムについて</option>
+										<option value="type2">
+										農作物について</option>
+										<option value="type3">
+										上記以外</option>
+								</select>
+							</dd>
+							<dt class="flex-item"><label for="name"><span class="label-required">必須</span>名前</label></dt>
+							<dd class="flex-item"><input type="text" id="name" name="your-name"  placeholder="例）あびりん　太郎"></dd>
+							<dt class="flex-item"><label for="email"><span class="label-required">必須</span>メールアドレス</label></dt>
+							<dd class="flex-item"><input type="email" id="email" name="your-email" placeholder="例）example@sample.com"></dd>
+							<dt class="flex-item"><label for="message"><span class="label-required">必須</span>メッセージ</label></dt>
+							<dd class="flex-item"><textarea id="message" name="your-message"></textarea></dd>
+						</dl>
+						<input class="btn" type="submit" value="確認画面へ">
+					</form>
+				</div>
+
+			</div>
+		</section>
+	</main>
+	
+
+	<footer>
+		<a id="footer-pagetop" href="#">
+			<img src="img/leaf-white.svg" alt="ページトップ">
+			<span>PAGE TOP</span>
+		</a>
+		<div class="footer-wrap">
+			<div class="contents">
+				<div class="footer-box flex-box">
+
+					<div class="flex-item">
+						<div class="site-title">
+							<a href="index.html">
+								<img src="img/logo-white.png" alt="ロゴマーク">
+							</a>
+						</div>
+						<p>
+							〒123-1234<br>
+							大阪府○○市○○XXX 1-2-3<br>
+							9:00 - 17:00<br>
+							休園日：毎週火曜日、年末年始</p>
+					</div>
+					
+					<div class="flex-item">
+						<ul>
+							<li><a href="./index.html">トップページ</a></li>
+							<li><a href="./syuukaku_list.html">農作物一覧</a></li>
+							<li><a href="./nouen_program.html">体験プログラム</a></li>
+							<li><a href="javascript:dummy();">農作物の販売</a></li>
+							<li><a href="./index.html#recruit">採用情報</a></li>
+							<li><a href="./access.html">アクセス</a></li>
+							<li><a href="./contact.html">お問い合わせ</a></li>
+						</ul>
+					</div>
+
+					<div class="flex-item">
+						<p class="margin-bottom-20"><a href="tel:123-123-1234" class="tel">TEL:123-123-1234</a><br>(9:00 - 17:00)</p>
+						<p><a href="contact.html" class="icon-btn contact">お問い合わせ</a></p>
+						
+						<div class="sns flex-box">
+							<div class="flex-item img"><a href="javascript:dummy();"><img src="img/sns-facebook.png" alt="Facebook"></a></div>
+							<div class="flex-item img"><a href="javascript:dummy();"><img src="img/sns-instagram.png" alt="instagram"></a></div>
+							<div class="flex-item img"><a href="javascript:dummy();"><img src="img/sns-youtube.png" alt="youtube"></a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<p class="copyright">&copy; MEI HASHIMOTO</p>
+			
+		</div>
+	</footer>
+	
+	
+	<div class="loading">
+		<div class="loading-animation">
+			<div class="img"><img src="img/logo.png" alt="ロゴマーク"></div>
+			<div class="loading-005">
+				<p>
+					<span>L</span>
+					<span>o</span>
+					<span>a</span>
+					<span>d</span>
+					<span>i</span>
+					<span>n</span>
+					<span>g</span>
+					<span>.</span>
+					<span>.</span>
+					<span>.</span>
+				</p>
+			</div>
+		</div>
+	</div>
+	
+	
+	<script src="js/script.js"></script>
+	</body>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
